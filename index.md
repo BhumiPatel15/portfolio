@@ -7,7 +7,7 @@ title: Home
 ---
 
  👋 Hi, I’m Bhumi Patel
-{% comment %}  👆 This is the main heading people will see on your homepage. {% comment %} 
+{% comment %}  👆 This is the main heading people will see on your homepage. {% endcomment %} 
 
 
 _Cybersecurity Graduate Student | Cloud Security Enthusiast_
