@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Organizations
+permalink: /organizations/
 ---
 
 # Organizations  
