@@ -20,16 +20,9 @@ title: Home
 </section>
 
 <!-- QUICK LINKS SECTION -->
-<section class="section">
-  <h2>Explore</h2>
-  <ul class="quicklinks">
-    <li><a href="{{ '/about/' | relative_url }}">About Me</a></li>
-    <li><a href="{{ '/work/' | relative_url }}">Work Experience</a></li>
-    <li><a href="{{ '/education/' | relative_url }}">Education</a></li>
-    <li><a href="{{ '/projects/' | relative_url }}">Projects</a></li>
-    <li><a href="{{ '/organizations/' | relative_url }}">Organizations</a></li>
-    <li><a href="{{ '/volunteer/' | relative_url }}">Volunteer & Conferences</a></li>
-    <li><a href="{{ '/contact/' | relative_url }}">Contact</a></li>
-  </ul>
-</section>
+<p>
+  Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+
+The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+</p>
 
