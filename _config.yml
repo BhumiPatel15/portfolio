@@ -24,3 +24,8 @@ theme: jekyll-theme-slate # theme Name
 title: Bhumi Patel # your Name 
 description: Cybersecurity Graduate Student | Cloud Security Enthusiast # A title for your quick intro and goals
 baseurl: "/portfolio"   # your repo name
+
+
+show_downloads: false
+github:
+  is_project_page: false
