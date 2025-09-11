@@ -6,35 +6,30 @@ layout: default
 title: Home
 ---
 
- 👋 Hi, I’m Bhumi Patel
-{% comment %}  👆 This is the main heading people will see on your homepage. {% endcomment %} 
+<!-- HERO -->
+<section class="hero">
+  <div class="container">
+    <h1 class="name">Bhumi Patel</h1>
+    <p class="subtitle">Cybersecurity Graduate Student · Cloud Security Enthusiast</p>
+    <div class="cta">
+      <a class="btn" href="{{ '/projects/' | relative_url }}">View Projects</a>
+      <a class="btn" href="{{ '/contact/' | relative_url }}">Contact Me</a>
+      <a class="btn" href="{{ '/about/' | relative_url }}">About Me</a>
+    </div>
+  </div>
+</section>
 
+<!-- QUICK LINKS SECTION -->
+<section class="section">
+  <h2>Explore</h2>
+  <ul class="quicklinks">
+    <li><a href="{{ '/about/' | relative_url }}">About Me</a></li>
+    <li><a href="{{ '/work/' | relative_url }}">Work Experience</a></li>
+    <li><a href="{{ '/education/' | relative_url }}">Education</a></li>
+    <li><a href="{{ '/projects/' | relative_url }}">Projects</a></li>
+    <li><a href="{{ '/organizations/' | relative_url }}">Organizations</a></li>
+    <li><a href="{{ '/volunteer/' | relative_url }}">Volunteer & Conferences</a></li>
+    <li><a href="{{ '/contact/' | relative_url }}">Contact</a></li>
+  </ul>
+</section>
 
-_Cybersecurity Graduate Student | Cloud Security Enthusiast_
-{% comment %} This is italic text (tagline or quick intro).{% endcomment %}
-{% comment %}  Use this for your role, passion, or focus area. {% endcomment %} 
-
-
-{% comment %}
-## 🚀 Quick Links
-# 👇 These are Call-To-Action (CTA) buttons/links.
-#    They help visitors quickly jump to key sections of your site.
-#    You can edit the labels (About Me, Education, etc.) or add/remove items.
-{% endcomment %}
-
-- [About Me](about.md)
-- [Work Experience](work.md)
-- [Education](education.md)
-- [Projects](projects.md)
-- [Organizations](org.md)
-- [Volunteer & Conferences](volunteer.md)
-- [Contact](contact.md)
-
-{% comment %}
-
-# ℹ️ Notes for Students:
-# - Each link above points to another `.md` file in your repo.
-# - Example: "about.md" must exist in the root of your repo.
-# - You can add text, images, or lists below if you want more on the homepage.
-
-{% endcomment %}
