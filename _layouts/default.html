@@ -1,40 +1,40 @@
 <!doctype html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{{ page.title }} · {{ site.title }}</title>
-  <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
-</head>
-<body>
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }} · {{ site.title }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- critical for mobile -->
+    <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
+  </head>
+  <body>
+    <header class="site-nav">
+      <div class="container">
+        <a class="brand" href="{{ '/' | relative_url }}">{{ site.title }}</a>
 
-  <!-- Top Nav (simple) -->
-  <header class="site-nav">
-    <div class="container">
-      <a class="brand" href="{{ '/' | relative_url }}">{{ site.title }}</a>
-      <nav>
-        <a href="{{ '/about/' | relative_url }}">About</a>
-        <a href="{{ '/work/' | relative_url }}">Work</a>
-        <a href="{{ '/education/' | relative_url }}">Education</a>
-        <a href="{{ '/projects/' | relative_url }}">Projects</a>
-        <a href="{{ '/organizations/' | relative_url }}">Organizations</a>
-        <a href="{{ '/volunteer/' | relative_url }}">Volunteer</a>
-        <a href="{{ '/contact/' | relative_url }}">Contact</a>
-      </nav>
-    </div>
-  </header>
+        <!-- Mobile menu toggle (no JS) -->
+        <input id="menu-toggle" type="checkbox" />
+        <label class="menu-btn" for="menu-toggle" aria-label="Open menu" aria-controls="main-nav" aria-expanded="false">☰</label>
 
-  <!-- Page content -->
-  <main class="container">
-    {{ content }}
-  </main>
+        <nav id="main-nav">
+          <a href="{{ '/about/' | relative_url }}">About</a>
+          <a href="{{ '/work/' | relative_url }}">Work</a>
+          <a href="{{ '/education/' | relative_url }}">Education</a>
+          <a href="{{ '/projects/' | relative_url }}">Projects</a>
+          <a href="{{ '/organizations/' | relative_url }}">Organizations</a>
+          <a href="{{ '/volunteer/' | relative_url }}">Volunteer</a>
+          <a href="{{ '/contact/' | relative_url }}">Contact</a>
+        </nav>
+      </div>
+    </header>
 
-  <!-- Footer -->
-  <footer class="site-footer">
-    <div class="container">
-      <p>© {{ site.time | date: "%Y" }} {{ site.title }} · Built with Jekyll</p>
-    </div>
-  </footer>
+    <main class="container">
+      {{ content }}
+    </main>
 
-</body>
+    <footer class="site-footer">
+      <div class="container">
+        © {{ site.time | date: "%Y" }} {{ site.title }} · Built with Jekyll
+      </div>
+    </footer>
+  </body>
 </html>
