@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Volunteer & Conferences
+permalink: /volunteer/
 ---
 
 # Volunteer Work & Conferences  
