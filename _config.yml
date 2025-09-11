@@ -20,7 +20,7 @@
 # your own unique portfolio!
 # =======================
 
-theme: jekyll-theme-hacker # theme Name 
+theme: jekyll-theme-slate # theme Name 
 title: Bhumi Patel # your Name 
 description: Cybersecurity Graduate Student | Cloud Security Enthusiast # A title for your quick intro and goals
 baseurl: "/portfolio"   # your repo name
