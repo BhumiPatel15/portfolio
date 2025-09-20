@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Work Experience
-permalink: /about/
+permalink: /work/
 ---
 
 # Work Experience  
